@@ -1,0 +1,31 @@
+{
+  "name": "test-app-1",
+  "version": "1.0.0",
+  "description": "- node.js\r - webpack\r - webpack-cli\r - webpack-dev-server",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivan-F-Sokolov/test-app-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivan-F-Sokolov/test-app-1/issues"
+  },
+  "homepage": "https://github.com/Ivan-F-Sokolov/test-app-1#readme",
+  "dependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib"
+  }
+}
